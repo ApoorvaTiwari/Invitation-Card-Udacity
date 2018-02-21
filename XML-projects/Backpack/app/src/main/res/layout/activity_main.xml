@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apoorva.backpack.MainActivity">
+
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/im1"
+        android:src="@drawable/agra"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"/>
+    <ImageView
+        android:layout_below="@id/im1"
+        android:scaleType="centerCrop"
+        android:id="@+id/im2"
+        android:src="@drawable/budget"
+        android:layout_width="match_parent"
+        android:layout_height="172dp" />
+
+    <ImageView
+        android:layout_below="@id/im2"
+        android:scaleType="centerCrop"
+        android:id="@+id/im3"
+        android:src="@drawable/solo"
+        android:layout_width="match_parent"
+        android:layout_height="170dp" />
+    <TextView
+        android:id="@+id/agra_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="405dp"
+        android:layout_marginTop="68dp"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:text="Top Places"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/budget_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="205dp"
+        android:layout_marginTop="250dp"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:text="Budget Places"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/solo_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="105dp"
+        android:layout_marginTop="410dp"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:text="Travel Solo"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="405dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="300dp"
+        android:textColor="#BDBDBD"
+        android:textSize="16sp"
+        android:text="view all" />
+    <TextView
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="305dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="300dp"
+        android:textColor="#BDBDBD"
+        android:textSize="16sp"
+        android:text="view all" />
+    <TextView
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="105dp"
+        android:layout_marginTop="345dp"
+        android:layout_marginLeft="300dp"
+        android:textColor="#BDBDBD"
+        android:textSize="16sp"
+        android:text="view all" />
+    
+
+</RelativeLayout>
